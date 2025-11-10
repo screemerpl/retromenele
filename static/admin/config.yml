@@ -5,6 +5,10 @@ backend:
 
 media_folder: "static/uploads"
 public_folder: "/uploads"
+editor:
+  preview: false
+local_backend: true
+
 
 collections:
   - name: "odcinki"
@@ -17,3 +21,31 @@ collections:
       - { label: "Data", name: "date", widget: "datetime" }
       - { label: "YouTube ID", name: "youtube_id", widget: "string", hint: "np. dQw4w9WgXcQ" }
       - { label: "Opis", name: "body", widget: "markdown" }
+  - name: "O nas"
+    label: "O nas"
+    files:
+      - label: "Strona O nas"
+        name: "o-nas"
+        file: "content/onas.md"
+        fields:
+          - { label: "Tytuł", name: "title", widget: "string" }
+          - { label: "Treść", name: "body", widget: "markdown" }
+  
+  - name: "Skład"
+    label: "Skład"
+    files:
+      - label: "Strona Skład"
+        name: "zespol"
+        file: "content/sklad.md"
+        fields:
+          - { label: "Tytuł", name: "title", widget: "string" }
+          - { label: "Treść", name: "body", widget: "markdown" }
+  - name: "Kontakt"
+    label: "Kontakt"
+    files:
+      - label: "Strona Kontakt"
+        name: "kontakt"
+        file: "content/kontakt.md"
+        fields:
+          - { label: "Tytuł", name: "title", widget: "string" }
+          - { label: "Treść", name: "body", widget: "markdown" }
