@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://retromenele.pl/'
 languageCode = 'pl'
 defaultContentLanguage = 'pl'
 title = 'Retro Menele.pl - najlepszy podcast o starych grach na Youtube'
