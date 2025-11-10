@@ -2,8 +2,10 @@
   publish = "public"
   command = "hugo"
 
+[build.environment]
+  HUGO_VERSION = "0.152.0"
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
-  
