@@ -102,7 +102,7 @@ logoText = "RetroMenele.pl"
         [[languages.pl.menu.main]]
           identifier = "youtube"
           name = "Podcast"
-          url = "/odcinki"
+          url = "/odcinki/"
           weight = 3
         [[languages.pl.menu.main]]
           identifier = "team"

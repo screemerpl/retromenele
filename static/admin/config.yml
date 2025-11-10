@@ -1,0 +1,19 @@
+backend:
+  name: github
+  repo: screemerpl/retromenele   # ← zmień na własne repo
+  branch: master
+
+media_folder: "static/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "odcinki"
+    label: "Odcinki"
+    folder: "content/odcinki"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Tytuł", name: "title", widget: "string" }
+      - { label: "Data", name: "date", widget: "datetime" }
+      - { label: "YouTube ID", name: "youtube_id", widget: "string", hint: "np. dQw4w9WgXcQ" }
+      - { label: "Opis", name: "body", widget: "markdown" }
