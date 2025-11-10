@@ -1,3 +1,4 @@
+# Managed by Static CMS (replacement for Netlify CMS)
 backend:
   name: github
   repo: screemerpl/retromenele   # ← zmień na własne repo
