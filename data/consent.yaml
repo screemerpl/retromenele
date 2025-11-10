@@ -1,0 +1,5 @@
+items:
+  - title: Hugo  (fukncjonalny)
+    description: Hugo to generator stron statycznych napisany w Go. Jest to podstawowa technologia używana do tworzenia tej strony.
+    is_functional: true
+    script_file: bundle.min.js

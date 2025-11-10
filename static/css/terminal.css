@@ -1,0 +1,16 @@
+:root {
+  --background: #1a170f;
+  --foreground: #2de2e6;
+  --accent: #d40078;
+}
+
+/* css */
+.photo {
+  display: block;      /* sprawia, że tekst przejdzie poniżej */
+  margin: 0 auto;      /* opcjonalnie wyśrodkowanie */
+  float: none;         /* usuń float jeśli był ustawiony */
+}
+.caption {
+  margin-top: 8px;
+  text-align: center;  /* lub left/right według potrzeb */
+}
