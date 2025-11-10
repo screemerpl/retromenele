@@ -1,6 +1,6 @@
 # Managed by Static CMS (replacement for Netlify CMS)
 backend:
-  name: github
+  #name: github
   #repo: screemerpl/retromenele   # ← zmień na własne repo
   name: git-gateway
   branch: master
