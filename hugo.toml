@@ -114,4 +114,9 @@ logoText = "RetroMenele.pl"
           name = "Kontakt"
           url = "/kontakt"
           weight = 4
+         [[languages.pl.menu.main]]
+          identifier = "polityka"
+          name = "Polityka prywatności"
+          url = "/polityka"
+          weight = 5
 
